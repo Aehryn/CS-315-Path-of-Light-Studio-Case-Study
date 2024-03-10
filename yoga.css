@@ -1,12 +1,41 @@
 body {
     background-color: #F5F5F5;
     color: #40407a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     background-color: #80CBC4;
+    background-image: url(assets/images/lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+h1 {
+    line-height: 400%;
+    text-indent: 1em;
 }
 
 footer {
     background-color: #80CBC4;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+
+#dd{
+    font-size: 90%;
+}
+
+#ll {
+    font-size: 90%;
 }
